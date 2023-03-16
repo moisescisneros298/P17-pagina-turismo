@@ -348,4 +348,15 @@ a.btn {
     filter: invert(1);
     max-width: 30px;
   }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #222;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
 }/*# sourceMappingURL=styles.css.map */
