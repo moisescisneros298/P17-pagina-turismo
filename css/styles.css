@@ -219,7 +219,23 @@ main .footer .copyright a {
   min-width: 50%;
   width: 50%;
   text-align: end;
-  padding-right: 40px;
+  padding-right: 20px;
+}
+.about .Imgbx {
+  position: relative;
+  min-width: 50%;
+  width: 50px;
+  min-height: 500px;
+}
+.about .Imgbx img {
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 a.btn {
@@ -293,11 +309,21 @@ a.btn {
     text-align: center;
     padding-right: 0px;
   }
-  .about .imgBx {
-    min-width: 100%;
+  .about .Imgbx {
+    position: relative;
+    min-width: 80%;
+    width: 50px;
+    min-height: 300px;
+  }
+  .about .Imgbx img {
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    text-align: center;
-    padding-right: 0px;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .imgBx {
     min-height: 250px;
